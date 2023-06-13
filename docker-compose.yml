@@ -1,0 +1,9 @@
+version: '1'
+
+services:
+  app:
+    container_name: "transvision-ui-p-b"
+    image: docker-react-i
+    build: .
+    ports:
+      - 3000:3000

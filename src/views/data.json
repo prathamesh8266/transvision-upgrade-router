@@ -1,0 +1,380 @@
+{
+  "fields": [
+    {
+      "id": "1",
+      "title": "FinCEN Final Rule(CDD) Exemptions",
+      "data": [
+        {
+          "datafirst": "Applicable exemption categories",
+          "datatwo": "-"
+        },
+        {
+          "datafirst": "FinCEN exemption comment",
+          "datatwo": "-"
+        },
+        {
+          "datafirst": "FinCEN Final Rule(CDD) exemption status",
+          "datatwo": "-"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Geography",
+      "data": [
+        {
+          "datafirst": "Countries of Operation",
+          "datatwo": "United States"
+        },
+        {
+          "datafirst": "Countries of Source of funds",
+          "datatwo": "Netherlands"
+        },
+        {
+          "datafirst": "Does the client have any nexus in SoF/Operations to any sensitive countries(more than 0% and less than 20% materiality)?",
+          "datatwo": "United States"
+        },
+        {
+          "datafirst": "Does the client have nexus to america",
+          "datatwo": "-"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Industry Code Details",
+      "data": [
+        {
+          "datafirst": "SWIFT BIC",
+          "datatwo": "-"
+        },
+        {
+          "datafirst": "SIC CODE",
+          "datatwo": "-"
+        },
+        {
+          "datafirst": "MIS Code - AP Cust Class",
+          "datatwo": "-"
+        },
+        {
+          "datafirst": "Classification",
+          "datatwo": "-"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Foreign Correspondent Accounts",
+      "data": [
+        {
+          "datafirst": "Party is a foreign correspondent account(FCA)",
+          "datatwo": "No"
+        },
+        {
+          "datafirst": "Is or will the account be established for a Foreign Bank",
+          "datatwo": "No"
+        },
+        {
+          "datafirst": "Is or will the account be established for a Money Transmitter that is organized under foreign law?",
+          "datatwo": "No"
+        },
+        {
+          "datafirst": "Is or will the account be established for a branch or office located outside of the US of a foreign or domestic Broker Dealer? (which includes entities organized under foreign law that, if located in the US, would be a broker/dealer in securities)",
+          "datatwo": "No"
+        },
+        {
+          "datafirst": "Is or will the account be established for a branch or office located outside of the US of a foreign or domestic Mutual Fund? (which includes entities organized under foreign law that, if located in the US, would be a mutual fund)",
+          "datatwo": "No"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "FCA Risk Profile",
+      "data": []
+    },
+    {
+      "id": "6",
+      "title": "Master/Sub Account & DMA Attributes",
+      "data": []
+    },
+    {
+      "id": "7",
+      "title": "KYC Level",
+      "data": [
+        {
+          "datafirst": "KYC Level",
+          "datatwo": "Low"
+        },
+        {
+          "datafirst": "KYC Level Override Comment",
+          "datatwo": "-"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Internal Booking Details",
+      "data": [
+        {
+          "datafirst": "Client Reference",
+          "datatwo": "-"
+        },
+        {
+          "datafirst": "Confidential",
+          "datatwo": "Undefined"
+        },
+        {
+          "datafirst": "Jurisdiction",
+          "datatwo": "Level 3 - Americas"
+        },
+        {
+          "datafirst": "Client Spider Code",
+          "datatwo": "AR98"
+        },
+
+        {
+          "datafirst": "Pre-Onboarding Reference Number",
+          "datatwo": "-"
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "Addresses",
+
+      "headers": [
+        "ID",
+        "Line1",
+        "Line2",
+        "Town/City",
+        "State/Country",
+        "Postal/Zip",
+        "Country",
+        "Type",
+        "Actions"
+      ],
+      "data": [
+        {
+          "ID": "95080",
+          "Line1": "Corporation Service Company",
+          "Line2": "251 Little Falls Drive",
+          "Town": "Wilmington",
+          "State": "Delaware",
+          "Zip": "19808",
+          "Country": "United States",
+          "Type": "Registered"
+        },
+        {
+          "ID": "95081",
+          "Line1": "40 West 57th Street, 28th Floor",
+          "Line2": "",
+          "Town": "New York",
+          "State": "New York",
+          "Zip": "10019",
+          "Country": "United States",
+          "Type": "Trading Principal Place of Business"
+        }
+      ]
+    },
+    {
+      "title": "Roles",
+
+      "headers": [
+        "LE Role",
+        "LE Role Status",
+        "Last Updated By",
+        "Last Updated Date",
+        "Actions"
+      ],
+      "data": [
+        {
+          "LR": "Client/Counterparty-Principal",
+          "LS": "Active",
+          "LUB": "DMF",
+          "Date": "12/12/2021"
+        },
+        {
+          "LR": "Account Owner",
+          "LS": "Active",
+          "LUB": "DMF",
+          "Date": "02/16/2021"
+        }
+      ]
+    },
+    {
+      "title": "External References",
+
+      "headers": [
+        "ID",
+        "External Reference Id",
+        "External Reference Type",
+        "Actions"
+      ],
+      "data": [
+        {
+          "ID": "43191",
+          "ER": "36240323",
+          "ET": "GPID"
+        },
+        {
+          "ID": "43315",
+          "ER": "3466434",
+          "ET": "CSID"
+        },
+        {
+          "ID": "44581",
+          "ER": "5151196",
+          "ET": "Party GSID"
+        }
+      ]
+    },
+    {
+      "title": "External Data",
+
+      "headers": [
+        "ID",
+        "Country",
+        "Tax Type",
+        "Tax Identifier",
+        "Tax Resident",
+        "Comments",
+        "Actions"
+      ],
+      "data": [
+        {
+          "ID": "43191",
+          "CTY": "36240323",
+          "TT": "GPID",
+          "TI": "813992",
+          "TR": "-",
+          "CMTS": "-"
+        }
+      ]
+    },
+    {
+      "title": "Tax Identifier",
+
+      "headers": [
+        "ID",
+        "Legal Entity",
+        "Relationship",
+        "Related to",
+        "Status",
+        "Last Updated By",
+        "Last Updated Date",
+        "Actions"
+      ],
+      "data": [
+        {
+          "ID": "396760",
+          "LE": "Al Chemicals Holdings LLC",
+          "RE": "Has Shareholder",
+          "RT": "[Legal Entity: RSB 2 Limited]",
+          "S": "Active",
+          "LUB": "GBLADHEDANIcbethay",
+          "LUD": "02/25/2022"
+        }
+      ]
+    },
+    {
+      "title": "Associated Parties",
+
+      "headers": [
+        "ID",
+        "Comment",
+        "Connected To",
+        "Last Updated Date",
+        "Last Updated By",
+        "Actions"
+      ],
+      "data": [
+        {
+          "ID": "396760",
+          "CMT": "Per KYC request, no activity and no revenue has been associated with the accounts for at least 18 months and an agreement has been received to suspend the entity despite of having future NRD. Please note, GSID was included in 72 hour notice and due to no response on 72 hour notice, entity has been suspended. For any questions related to temporary re-activation to settle an existing trade prior to suspension, please reach out to GG CDM Suspensions. For new business, full re- activation, or reactivation prior to the NRD, the account can be reactivated with mandatory Desk Head approval (MDR), please reach out to GG GM KYC Escalations.52376Inactive - S2376P1",
+          "CT": "LegalEntity [122965]",
+          "LUD": "12/22/2022",
+          "LUB": "GBLADHEDANI"
+        },
+        {
+          "ID": "416853",
+          "CMT": "As per FO request, we are reactivating US Jurisdiction & IBCM Product under the GSID, For any query, please reach out to DD CM&A Ongoing Due Diligence or GG CDM Suspensions P23-2240 AJ.",
+          "CT": "LegalEntity [122965]",
+          "LUD": "12/22/2022",
+          "LUB": "GBLADHEDANI K211397"
+        }
+      ]
+    },
+    {
+      "title": "Comments",
+
+      "headers": [
+        "ID",
+        "Operation",
+        "Entity Type",
+        "Entity Id",
+        "Date and Time",
+        "User",
+        "Actions"
+      ],
+      "data": [
+        {
+          "ID": "396760",
+          "OP": "Update CS Jurisdiction",
+          "ET": "LegalEntity [122965]",
+          "EI": "12/22/2022",
+          "DT": "GBLADHEDANI",
+          "U": "Ashwini (Private Side) Jadhav"
+        },
+        {
+          "ID": "396760",
+          "OP": "Update CS Jurisdiction",
+          "ET": "LegalEntity [122965]",
+          "EI": "12/22/2022",
+          "DT": "GBLADHEDANI",
+          "U": "Ashwini (Private Side) Jadhav"
+        },
+        {
+          "ID": "396760",
+          "OP": "Update CS Jurisdiction",
+          "ET": "LegalEntity [122965]",
+          "EI": "12/22/2022",
+          "DT": "GBLADHEDANI",
+          "U": "Ashwini (Private Side) Jadhav"
+        }
+      ]
+    },
+    {
+      "title": "Available Documents",
+
+      "headers": [
+        "ID",
+        "Name",
+        "Source",
+        "Category",
+        "Type",
+        "Status",
+        "Expiration Date",
+        "Connection Point",
+        "Updated Date",
+        "Updated By",
+        "Actions"
+      ],
+      "data": [
+        {
+          "ID": "396760",
+          "N": "1 Certificate of Formation",
+          "S": "Uploaded Document",
+          "C": "Others",
+          "T": "Other",
+          "ST": "Received",
+          "ED": "-",
+          "CP": "Case[150872]",
+          "UD": "03/24/2022",
+          "UB": "GBLADHEDANIcbethay"
+        }
+      ]
+    }
+  ]
+}
